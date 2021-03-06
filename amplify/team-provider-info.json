@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "fullstackserverlessaff2edae": {}
+      },
+      "function": {
+        "fullstackserverless8a01ed93": {
+          "deploymentBucketName": "amplify-fullstackserverless-dev-60436-deployment",
+          "s3Key": "amplify-builds/fullstackserverless8a01ed93-304c655635465a424439-build.zip"
+        }
       }
     }
   }

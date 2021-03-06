@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/coins",
+            "lambdaFunction": "fullstackserverless8a01ed93",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/coins"
+        }
+    ],
+    "resourceName": "cryptoapi",
+    "apiName": "cryptoapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "fullstackserverless8a01ed93"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-fullstackserverless-dev-60436-authRole",
+        "unAuthRoleName": "amplify-fullstackserverless-dev-60436-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "fullstackserverless8a01ed93",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

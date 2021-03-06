@@ -11,10 +11,14 @@
     "@aws-amplify/ui-react": "^1.0.3",
     "autoprefixer": "^10.2.5",
     "aws-amplify": "^3.3.22",
+    "axios": "^0.21.1",
     "next": "10.0.8",
     "postcss": "^8.2.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "swr": "^0.4.2"
   }
 }
