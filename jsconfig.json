@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/amplify/*": ["amplify/*"],
+      "@/src/*": ["src/*"],
+      "@/styles/*": ["styles/*"]
+    }
+  }
+}

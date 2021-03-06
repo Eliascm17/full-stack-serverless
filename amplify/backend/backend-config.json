@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "fullstackserverlessaff2edae": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
