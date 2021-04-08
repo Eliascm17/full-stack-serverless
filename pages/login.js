@@ -1,4 +1,4 @@
-import "../configureAmplify";
+import "../src/configureAmplify";
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 const Login = () => {

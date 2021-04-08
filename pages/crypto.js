@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { API } from "aws-amplify";
-import "../configureAmplify";
+import "../src/configureAmplify";
 
 const Crypto = () => {
   const [input, setInput] = useState({ limit: 5, start: 0 });
