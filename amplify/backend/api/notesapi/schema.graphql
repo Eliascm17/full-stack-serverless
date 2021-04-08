@@ -1,7 +1,7 @@
-type Todo @model {
+type Note @model {
   id: ID!
   clientId: ID
   name: String!
-  description: String
+  description: Stringamp
   completed: Boolean
 }
